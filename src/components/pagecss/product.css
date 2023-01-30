@@ -1,0 +1,28 @@
+.main-div-2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.products-name {
+  height: 50px;
+}
+.products-price {
+}
+.products-discription {
+}
+.products-category {
+}
+.products-img {
+  height: 20px;
+  width: 50px;
+}
+
+.pcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 24%;
+  border: solid 1px;
+  border-color: rgb(0, 0, 0);
+  margin-left: 10px;
+  background-image: linear-gradient(30deg, #09010f69 20%, #471b046b 90%);
+}
