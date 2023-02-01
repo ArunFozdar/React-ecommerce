@@ -1,0 +1,59 @@
+.dash-div-1 {
+  display: flex;
+}
+.dd1 {
+  width: 33.33%;
+  height: 150px;
+  text-align: center;
+}
+.dd2 {
+  width: 20%;
+  height: 150px;
+}
+
+.dd3 {
+  width: 40.33%;
+  height: 150px;
+}
+
+img {
+  height: 150px;
+  width: 180px;
+}
+
+.btn-dash1 {
+  border: solid 2px;
+  border-color: black;
+  margin-left: 85px;
+  height: 36px;
+  margin-top: 60px;
+}
+.btn-dash2 {
+  border: solid 2px;
+  border-color: black;
+  margin-left: 40px;
+  height: 36px;
+}
+
+.order {
+  height: 300px;
+  width: 100%;
+  display: flex;
+}
+.order1 {
+  height: 300px;
+  width: 50%;
+  text-align: center;
+  border-right: solid 1px;
+}
+.order2 {
+  height: 300px;
+  width: 50%;
+}
+select {
+  width: 200px;
+  margin-left: 70px;
+  border-radius: 15px;
+  height: 30px;
+  margin-top: 20px;
+}

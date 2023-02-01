@@ -1,0 +1,34 @@
+.heading {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 80px;
+  font-style: italic;
+}
+.bts11 {
+  height: 200px;
+  width: 400px;
+  border: solid 2px;
+  border-color: Green;
+  border-radius: 0;
+  margin-left: 250px;
+}
+.bts12 {
+  height: 200px;
+  width: 400px;
+  border: solid 2px;
+  border-color: Green;
+  border-radius: 0;
+  margin-left: 100px;
+}
+.bts11:hover {
+  color: rgb(2, 2, 2);
+  background-color: rgb(34, 121, 34);
+}
+.bts12:hover {
+  color: rgb(2, 2, 2);
+  background-color: rgb(27, 119, 27);
+}
+.btsss:hover {
+  color: rgb(2, 2, 2);
+  background-color: rgb(34, 121, 34);
+}

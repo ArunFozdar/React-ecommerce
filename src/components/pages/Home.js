@@ -3,6 +3,7 @@ import "../pagecss/home.css";
 import axios from "axios";
 import Header from "./Header";
 import Products from "./Products";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   const [loading, setLoading] = useState(false);
@@ -26,7 +27,31 @@ export default function Home() {
 
   return (
     <div>
-      <Header></Header>
+      <div>
+        <header>
+          <div className="overlay">
+            <h1>E-commerce</h1>
+            <ul>
+              <li>Home</li>
+              <li>About</li>
+              <li>Services</li>
+              <li>Contact Us</li>
+            </ul>
+
+            <p>!!!Shop Here Befikar!!! </p>
+
+            <button>READ MORE</button>
+            {/* <button type="submit" className="signup">
+            SignUp
+          </button> */}
+            <Link to="/dash">
+              <button type="submit" className="signin">
+                Profile
+              </button>
+            </Link>
+          </div>
+        </header>
+      </div>
       <hr />
       <hr />
       <hr />
@@ -39,7 +64,7 @@ export default function Home() {
 
         {data.map((categories) => (
           <div key={categories.index} className="card">
-            <button className="bt1">
+            <button className="bt1  ">
               <div className="categories-name"> {categories}</div>
             </button>
           </div>

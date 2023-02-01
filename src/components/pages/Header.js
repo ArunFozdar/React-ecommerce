@@ -1,5 +1,6 @@
 import React from "react";
 import "../pagecss/head.css";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -17,6 +18,14 @@ export default function Header() {
           <p>!!!Shop Here Befikar!!! </p>
 
           <button>READ MORE</button>
+          {/* <button type="submit" className="signup">
+            SignUp
+          </button> */}
+          <Link to="/login">
+            <button type="submit" className="signin">
+              SignIn
+            </button>
+          </Link>
         </div>
       </header>
     </div>

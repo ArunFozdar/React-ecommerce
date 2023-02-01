@@ -27,7 +27,6 @@ export default function Products() {
   return (
     <>
       <div>
-        {/* <Header></Header> */}
         <div className="main-div-2">
           {loading && (
             <div>

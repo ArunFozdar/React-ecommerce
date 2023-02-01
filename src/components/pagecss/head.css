@@ -1,9 +1,9 @@
 header {
   text-align: center;
   width: 100%;
-
   border-radius: 0 0 5% 5%;
   overflow: hidden;
+  height: 300px;
 }
 .overlay {
   width: 100%;
@@ -25,7 +25,7 @@ button {
 }
 ul {
   display: flex;
-  margin-left: 400px;
+  justify-content: center;
   color: black;
 }
 li {
@@ -35,4 +35,25 @@ li {
 
 p {
   color: black;
+}
+
+.signup {
+  position: absolute;
+  left: 50px;
+  width: 100px;
+  background: none;
+}
+.signin {
+  position: absolute;
+  right: 50px;
+  width: 100px;
+  background: none;
+}
+.signin:hover {
+  background-color: #468d4c;
+  color: white;
+}
+.signup:hover {
+  background-color: #468d4c;
+  color: white;
 }

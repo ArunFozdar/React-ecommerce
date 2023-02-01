@@ -2,19 +2,6 @@
   display: flex;
   flex-wrap: wrap;
 }
-.products-name {
-  height: 50px;
-}
-.products-price {
-}
-.products-discription {
-}
-.products-category {
-}
-.products-img {
-  height: 20px;
-  width: 50px;
-}
 
 .pcard {
   display: flex;
